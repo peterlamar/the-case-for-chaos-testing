@@ -3,12 +3,12 @@ Intro to Chaos Testing as a scientific method to increase confidence and securit
 
 References:
 
-http://principlesofchaos.org/
-https://news.ycombinator.com/item?id=20183590
-https://news.ycombinator.com/item?id=16244586
-https://outage.report/
-https://github.com/dastergon/awesome-chaos-engineering
-[CNCF Chaos Landscape](https://landscape.cncf.io/category=chaos-engineering&format=card-mode&grouping=category)
+* http://principlesofchaos.org/
+* https://news.ycombinator.com/item?id=20183590
+* https://news.ycombinator.com/item?id=16244586
+* https://outage.report/
+* https://github.com/dastergon/awesome-chaos-engineering
+* [CNCF Chaos Landscape](https://landscape.cncf.io/category=chaos-engineering&format=card-mode&grouping=category)
 
 Demo 1:
 

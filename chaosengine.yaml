@@ -1,0 +1,16 @@
+# chaosengine.yaml
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChaosEngine
+metadata:
+  name: engine-nginx
+  namespace: litmus
+spec:
+  appinfo: 
+    appns: litmus # App namespace
+    # FYI, To see app label, apply kubectl get pods --show-labels
+    applabel: "run=myserver" # App Label
+  chaosServiceAccount: litmus
+  experiments:
+    - name: pod-delete
+      spec:
+        rank: 1

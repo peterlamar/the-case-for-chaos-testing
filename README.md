@@ -10,7 +10,7 @@ References:
 * https://github.com/dastergon/awesome-chaos-engineering
 * [CNCF Chaos Landscape](https://landscape.cncf.io/category=chaos-engineering&format=card-mode&grouping=category)
 
-Demo 1:
+Demo 1 (Simple):
 
 [Repo/Demo](https://github.com/alexei-led/pumba)
 
@@ -26,7 +26,8 @@ Now open a new terminal window and run:
 docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock gaiaadm/pumba --log-level debug --interval 20s netem --duration 10s delay tryme 
 ```
 
-Demo 2:
+Demo 2 (Moderate):
+
 [Repo/Demo](https://github.com/chaosblade-io/chaosblade)
 
 ```
@@ -46,7 +47,7 @@ blade status 0611e66df1b4c498
 curl http://localhost:8080/dubbo/hello?name=dubbo
 ```
 
-Demo 3:
+Demo 3 (Complex):
 
 [Repo](https://github.com/litmuschaos/litmus)
 
